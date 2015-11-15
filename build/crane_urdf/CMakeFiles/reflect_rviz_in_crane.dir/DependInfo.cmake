@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mech-user/semi/src/crane_urdf/src/reflect_rviz_in_crane.cpp" "/home/mech-user/semi/build/crane_urdf/CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o"
+  "/home/mech-user/seminar/src/crane_urdf/src/reflect_rviz_in_crane.cpp" "/home/mech-user/seminar/build/crane_urdf/CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

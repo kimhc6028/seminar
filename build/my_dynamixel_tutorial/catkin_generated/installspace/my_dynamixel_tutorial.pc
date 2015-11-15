@@ -1,8 +1,8 @@
-prefix=/home/mech-user/semi/install
+prefix=/home/mech-user/seminar/install
 
 Name: my_dynamixel_tutorial
 Description: Description of my_dynamixel_tutorial
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/mech-user/semi/install/lib 
+Libs: -L/home/mech-user/seminar/install/lib 
 Requires: 

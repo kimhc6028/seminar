@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mech-user/semi/src/crane_urdf
+CMAKE_SOURCE_DIR = /home/mech-user/seminar/src/crane_urdf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mech-user/semi/build/crane_urdf
+CMAKE_BINARY_DIR = /home/mech-user/seminar/build/crane_urdf
 
 # Include any dependencies generated for this target.
 include CMakeFiles/reflect_rviz_in_crane.dir/depend.make
@@ -50,18 +50,18 @@ include CMakeFiles/reflect_rviz_in_crane.dir/progress.make
 include CMakeFiles/reflect_rviz_in_crane.dir/flags.make
 
 CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o: CMakeFiles/reflect_rviz_in_crane.dir/flags.make
-CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o: /home/mech-user/semi/src/crane_urdf/src/reflect_rviz_in_crane.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mech-user/semi/build/crane_urdf/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o: /home/mech-user/seminar/src/crane_urdf/src/reflect_rviz_in_crane.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mech-user/seminar/build/crane_urdf/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o -c /home/mech-user/semi/src/crane_urdf/src/reflect_rviz_in_crane.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o -c /home/mech-user/seminar/src/crane_urdf/src/reflect_rviz_in_crane.cpp
 
 CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mech-user/semi/src/crane_urdf/src/reflect_rviz_in_crane.cpp > CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mech-user/seminar/src/crane_urdf/src/reflect_rviz_in_crane.cpp > CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.i
 
 CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mech-user/semi/src/crane_urdf/src/reflect_rviz_in_crane.cpp -o CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mech-user/seminar/src/crane_urdf/src/reflect_rviz_in_crane.cpp -o CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.s
 
 CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o.requires:
 .PHONY : CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o.requires
@@ -79,31 +79,31 @@ reflect_rviz_in_crane_OBJECTS = \
 # External object files for target reflect_rviz_in_crane
 reflect_rviz_in_crane_EXTERNAL_OBJECTS =
 
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: CMakeFiles/reflect_rviz_in_crane.dir/build.make
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/libroscpp.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/librosconsole.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/liblog4cxx.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/librostime.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/libcpp_common.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane: CMakeFiles/reflect_rviz_in_crane.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane"
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: CMakeFiles/reflect_rviz_in_crane.dir/build.make
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/libroscpp.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/librosconsole.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/liblog4cxx.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/librostime.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /opt/ros/indigo/lib/libcpp_common.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane: CMakeFiles/reflect_rviz_in_crane.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reflect_rviz_in_crane.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/reflect_rviz_in_crane.dir/build: /home/mech-user/semi/devel/lib/crane_urdf/reflect_rviz_in_crane
+CMakeFiles/reflect_rviz_in_crane.dir/build: /home/mech-user/seminar/devel/lib/crane_urdf/reflect_rviz_in_crane
 .PHONY : CMakeFiles/reflect_rviz_in_crane.dir/build
 
 CMakeFiles/reflect_rviz_in_crane.dir/requires: CMakeFiles/reflect_rviz_in_crane.dir/src/reflect_rviz_in_crane.cpp.o.requires
@@ -114,6 +114,6 @@ CMakeFiles/reflect_rviz_in_crane.dir/clean:
 .PHONY : CMakeFiles/reflect_rviz_in_crane.dir/clean
 
 CMakeFiles/reflect_rviz_in_crane.dir/depend:
-	cd /home/mech-user/semi/build/crane_urdf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mech-user/semi/src/crane_urdf /home/mech-user/semi/src/crane_urdf /home/mech-user/semi/build/crane_urdf /home/mech-user/semi/build/crane_urdf /home/mech-user/semi/build/crane_urdf/CMakeFiles/reflect_rviz_in_crane.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mech-user/seminar/build/crane_urdf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mech-user/seminar/src/crane_urdf /home/mech-user/seminar/src/crane_urdf /home/mech-user/seminar/build/crane_urdf /home/mech-user/seminar/build/crane_urdf /home/mech-user/seminar/build/crane_urdf/CMakeFiles/reflect_rviz_in_crane.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/reflect_rviz_in_crane.dir/depend
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mech-user/semi/src/openni_tracker
+CMAKE_SOURCE_DIR = /home/mech-user/seminar/src/openni_tracker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mech-user/semi/build/openni_tracker
+CMAKE_BINARY_DIR = /home/mech-user/seminar/build/openni_tracker
 
 # Utility rule file for clean_test_results.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/mech-user/semi/build/openni_tracker
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/cmake -E remove_directory /home/mech-user/semi/build/openni_tracker/test_results
+	/usr/bin/cmake -E remove_directory /home/mech-user/seminar/build/openni_tracker/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -61,6 +61,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/mech-user/semi/build/openni_tracker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mech-user/semi/src/openni_tracker /home/mech-user/semi/src/openni_tracker /home/mech-user/semi/build/openni_tracker /home/mech-user/semi/build/openni_tracker /home/mech-user/semi/build/openni_tracker/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mech-user/seminar/build/openni_tracker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mech-user/seminar/src/openni_tracker /home/mech-user/seminar/src/openni_tracker /home/mech-user/seminar/build/openni_tracker /home/mech-user/seminar/build/openni_tracker /home/mech-user/seminar/build/openni_tracker/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

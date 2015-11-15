@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mech-user/semi/src/crane_urdf
+CMAKE_SOURCE_DIR = /home/mech-user/seminar/src/crane_urdf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mech-user/semi/build/crane_urdf
+CMAKE_BINARY_DIR = /home/mech-user/seminar/build/crane_urdf
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,9 +120,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mech-user/semi/build/crane_urdf/CMakeFiles /home/mech-user/semi/build/crane_urdf/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mech-user/seminar/build/crane_urdf/CMakeFiles /home/mech-user/seminar/build/crane_urdf/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mech-user/semi/build/crane_urdf/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mech-user/seminar/build/crane_urdf/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -189,6 +189,45 @@ doxygen/fast:
 .PHONY : doxygen/fast
 
 #=============================================================================
+# Target rules for targets named dynamixel_msgs_generate_messages_cpp
+
+# Build rule for target.
+dynamixel_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamixel_msgs_generate_messages_cpp
+.PHONY : dynamixel_msgs_generate_messages_cpp
+
+# fast build rule for target.
+dynamixel_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/dynamixel_msgs_generate_messages_cpp.dir/build.make CMakeFiles/dynamixel_msgs_generate_messages_cpp.dir/build
+.PHONY : dynamixel_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named dynamixel_msgs_generate_messages_lisp
+
+# Build rule for target.
+dynamixel_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamixel_msgs_generate_messages_lisp
+.PHONY : dynamixel_msgs_generate_messages_lisp
+
+# fast build rule for target.
+dynamixel_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/dynamixel_msgs_generate_messages_lisp.dir/build.make CMakeFiles/dynamixel_msgs_generate_messages_lisp.dir/build
+.PHONY : dynamixel_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named dynamixel_msgs_generate_messages_py
+
+# Build rule for target.
+dynamixel_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamixel_msgs_generate_messages_py
+.PHONY : dynamixel_msgs_generate_messages_py
+
+# fast build rule for target.
+dynamixel_msgs_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/dynamixel_msgs_generate_messages_py.dir/build.make CMakeFiles/dynamixel_msgs_generate_messages_py.dir/build
+.PHONY : dynamixel_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -226,6 +265,19 @@ geometry_msgs_generate_messages_py: cmake_check_build_system
 geometry_msgs_generate_messages_py/fast:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named reflect_crane_in_rviz
+
+# Build rule for target.
+reflect_crane_in_rviz: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reflect_crane_in_rviz
+.PHONY : reflect_crane_in_rviz
+
+# fast build rule for target.
+reflect_crane_in_rviz/fast:
+	$(MAKE) -f CMakeFiles/reflect_crane_in_rviz.dir/build.make CMakeFiles/reflect_crane_in_rviz.dir/build
+.PHONY : reflect_crane_in_rviz/fast
 
 #=============================================================================
 # Target rules for targets named reflect_rviz_in_crane
@@ -448,6 +500,30 @@ gtest_main/fast:
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+src/reflect_crane_in_rviz.o: src/reflect_crane_in_rviz.cpp.o
+.PHONY : src/reflect_crane_in_rviz.o
+
+# target to build an object file
+src/reflect_crane_in_rviz.cpp.o:
+	$(MAKE) -f CMakeFiles/reflect_crane_in_rviz.dir/build.make CMakeFiles/reflect_crane_in_rviz.dir/src/reflect_crane_in_rviz.cpp.o
+.PHONY : src/reflect_crane_in_rviz.cpp.o
+
+src/reflect_crane_in_rviz.i: src/reflect_crane_in_rviz.cpp.i
+.PHONY : src/reflect_crane_in_rviz.i
+
+# target to preprocess a source file
+src/reflect_crane_in_rviz.cpp.i:
+	$(MAKE) -f CMakeFiles/reflect_crane_in_rviz.dir/build.make CMakeFiles/reflect_crane_in_rviz.dir/src/reflect_crane_in_rviz.cpp.i
+.PHONY : src/reflect_crane_in_rviz.cpp.i
+
+src/reflect_crane_in_rviz.s: src/reflect_crane_in_rviz.cpp.s
+.PHONY : src/reflect_crane_in_rviz.s
+
+# target to generate assembly for a file
+src/reflect_crane_in_rviz.cpp.s:
+	$(MAKE) -f CMakeFiles/reflect_crane_in_rviz.dir/build.make CMakeFiles/reflect_crane_in_rviz.dir/src/reflect_crane_in_rviz.cpp.s
+.PHONY : src/reflect_crane_in_rviz.cpp.s
+
 src/reflect_rviz_in_crane.o: src/reflect_rviz_in_crane.cpp.o
 .PHONY : src/reflect_rviz_in_crane.o
 
@@ -481,6 +557,9 @@ help:
 	@echo "... clean_test_results"
 	@echo "... download_extra_data"
 	@echo "... doxygen"
+	@echo "... dynamixel_msgs_generate_messages_cpp"
+	@echo "... dynamixel_msgs_generate_messages_lisp"
+	@echo "... dynamixel_msgs_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
@@ -490,6 +569,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... reflect_crane_in_rviz"
 	@echo "... reflect_rviz_in_crane"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
@@ -508,6 +588,9 @@ help:
 	@echo "... tests"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... src/reflect_crane_in_rviz.o"
+	@echo "... src/reflect_crane_in_rviz.i"
+	@echo "... src/reflect_crane_in_rviz.s"
 	@echo "... src/reflect_rviz_in_crane.o"
 	@echo "... src/reflect_rviz_in_crane.i"
 	@echo "... src/reflect_rviz_in_crane.s"

@@ -5,6 +5,9 @@ import numpy as np
 from geometry_msgs.msg import Twist
 from kobuki_msgs.msg import MotorPower
 from geometry_msgs.msg import Vector3
+#from pykalman import KalmanFilter as kf
+
+
 
 relative_left_x=0.0
 relative_left_y=0.0
@@ -12,6 +15,9 @@ relative_left_z=0.0
 relative_right_x=0.0
 relative_right_y=0.0
 relative_right_z=0.0
+right_x_stack=[0,0,0,0,0]
+right_y_stack=[0,0,0,0,0]
+right_z_stack=[0,0,0,0,0]
 
 #relative_left_x_first=0.0
 #relative_left_y_first=0.0
@@ -32,6 +38,7 @@ def left_hand_processing(data):##left hand : relative postion btw left hand and 
     relative_left_x=data.x
     relative_left_y=data.y
     relative_left_z=data.z
+    
     #if first_left==True:
     #    relative_left_x_first=relative_left_x
     #    relative_left_y_first=relative_left_y
@@ -45,6 +52,7 @@ def right_hand_processing(data):##left hand : relative postion btw right hand an
     #global relative_right_x_first,relative_right_y_first,relative_right_z_first
     
     #global first_right
+    
     relative_right_x=data.x
     relative_right_y=data.y
     relative_right_z=data.z
@@ -72,8 +80,18 @@ def move():
     #200,-150,-150?
 
     while not rospy.is_shutdown():
-        move_fb=relative_right_z
-        turn_rl=relative_right_x
+        
+        ####
+        right_x_stack.pop(0)
+        right_x_stack.append(relative_right_x)
+        right_z_stack.pop(0)
+        right_z_stack.append(relative_right_z)
+        
+        move_fb=np.mean(right_z_stack)
+        turn_rl=np.mean(right_x_stack)
+            ####
+        #move_fb=relative_right_z
+        #turn_rl=relative_right_x
         print move_fb,turn_rl
         v_x=0.0
         w_z=0.0

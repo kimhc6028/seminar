@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mech-user/semi/src/kinect_move
+CMAKE_SOURCE_DIR = /home/mech-user/seminar/src/kinect_move
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mech-user/semi/build/kinect_move
+CMAKE_BINARY_DIR = /home/mech-user/seminar/build/kinect_move
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -60,6 +60,6 @@ CMakeFiles/roscpp_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/mech-user/semi/build/kinect_move && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mech-user/semi/src/kinect_move /home/mech-user/semi/src/kinect_move /home/mech-user/semi/build/kinect_move /home/mech-user/semi/build/kinect_move /home/mech-user/semi/build/kinect_move/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mech-user/seminar/build/kinect_move && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mech-user/seminar/src/kinect_move /home/mech-user/seminar/src/kinect_move /home/mech-user/seminar/build/kinect_move /home/mech-user/seminar/build/kinect_move /home/mech-user/seminar/build/kinect_move/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/depend
 

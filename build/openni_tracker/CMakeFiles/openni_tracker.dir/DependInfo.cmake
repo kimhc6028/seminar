@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mech-user/semi/src/openni_tracker/src/openni_tracker.cpp" "/home/mech-user/semi/build/openni_tracker/CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o"
+  "/home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp" "/home/mech-user/seminar/build/openni_tracker/CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

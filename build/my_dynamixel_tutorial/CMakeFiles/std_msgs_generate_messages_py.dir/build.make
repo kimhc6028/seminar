@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mech-user/semi/src/my_dynamixel_tutorial
+CMAKE_SOURCE_DIR = /home/mech-user/seminar/src/my_dynamixel_tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mech-user/semi/build/my_dynamixel_tutorial
+CMAKE_BINARY_DIR = /home/mech-user/seminar/build/my_dynamixel_tutorial
 
 # Utility rule file for std_msgs_generate_messages_py.
 
@@ -60,6 +60,6 @@ CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_py.dir/depend:
-	cd /home/mech-user/semi/build/my_dynamixel_tutorial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mech-user/semi/src/my_dynamixel_tutorial /home/mech-user/semi/src/my_dynamixel_tutorial /home/mech-user/semi/build/my_dynamixel_tutorial /home/mech-user/semi/build/my_dynamixel_tutorial /home/mech-user/semi/build/my_dynamixel_tutorial/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mech-user/seminar/build/my_dynamixel_tutorial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mech-user/seminar/src/my_dynamixel_tutorial /home/mech-user/seminar/src/my_dynamixel_tutorial /home/mech-user/seminar/build/my_dynamixel_tutorial /home/mech-user/seminar/build/my_dynamixel_tutorial /home/mech-user/seminar/build/my_dynamixel_tutorial/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/depend
 

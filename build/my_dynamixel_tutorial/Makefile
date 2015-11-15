@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mech-user/semi/src/my_dynamixel_tutorial
+CMAKE_SOURCE_DIR = /home/mech-user/seminar/src/my_dynamixel_tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mech-user/semi/build/my_dynamixel_tutorial
+CMAKE_BINARY_DIR = /home/mech-user/seminar/build/my_dynamixel_tutorial
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,9 +120,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mech-user/semi/build/my_dynamixel_tutorial/CMakeFiles /home/mech-user/semi/build/my_dynamixel_tutorial/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mech-user/seminar/build/my_dynamixel_tutorial/CMakeFiles /home/mech-user/seminar/build/my_dynamixel_tutorial/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mech-user/semi/build/my_dynamixel_tutorial/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mech-user/seminar/build/my_dynamixel_tutorial/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

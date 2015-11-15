@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/reflect_crane_in_rviz.dir/src/reflect_crane_in_rviz.cpp.o"
-  "/home/mech-user/semi/devel/lib/crane_urdf/reflect_crane_in_rviz.pdb"
-  "/home/mech-user/semi/devel/lib/crane_urdf/reflect_crane_in_rviz"
+  "/home/mech-user/seminar/devel/lib/crane_urdf/reflect_crane_in_rviz.pdb"
+  "/home/mech-user/seminar/devel/lib/crane_urdf/reflect_crane_in_rviz"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 SET(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/gtest")
-SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/mech-user/semi/build/7dof_arm_moveit_config")
+SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/mech-user/seminar/build/7dof_arm_moveit_config")
 
 # Force unix paths in dependencies.
 SET(CMAKE_FORCE_UNIX_PATHS 1)

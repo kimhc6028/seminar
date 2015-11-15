@@ -1,5 +1,42 @@
-[[36mopenni_tracker[0m] [1m[34m==>[0m '[1m/home/mech-user/semi/build/openni_tracker/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/home/mech-user/semi/build/openni_tracker[0m'[0m
-[[36mopenni_tracker[0m] [32m<==[0m '[1m/home/mech-user/semi/build/openni_tracker/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
-[[36mopenni_tracker[0m] [1m[34m==>[0m '[1m/home/mech-user/semi/build/openni_tracker/build_env.sh /usr/bin/make --jobserver-fds=3,5 -j[0m' [30m[1min[0m '[1m/home/mech-user/semi/build/openni_tracker[0m'[0m
+[[36mopenni_tracker[0m] [1m[34m==>[0m '[1m/home/mech-user/seminar/build/openni_tracker/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/home/mech-user/seminar/build/openni_tracker[0m'[0m
+[[36mopenni_tracker[0m] [32m<==[0m '[1m/home/mech-user/seminar/build/openni_tracker/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mopenni_tracker[0m] [1m[34m==>[0m '[1m/home/mech-user/seminar/build/openni_tracker/build_env.sh /usr/bin/make --jobserver-fds=4,6 -j[0m' [30m[1min[0m '[1m/home/mech-user/seminar/build/openni_tracker[0m'[0m
+Scanning dependencies of target openni_tracker
+[100%] Building CXX object CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o
+/home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp: In function void publishTransform(const XnUserID&, const XnSkeletonJoint&, const string&, const string&):
+/home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp:161:49: warning: void tf::Quaternion::setEulerZYX(const tfScalar&, const tfScalar&, const tfScalar&) is deprecated (declared at /opt/ros/indigo/include/tf/LinearMath/Quaternion.h:114) [-Wdeprecated-declarations]
+     frame_rotation.setEulerZYX(1.5708, 0, 1.5708);
+                                                 ^
+In file included from /home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp:13:0:
+/usr/include/ni/XnCppWrapper.h: In member function XnStatus xn::SkeletonCapability::RegisterCalibrationCallbacks(xn::SkeletonCapability::CalibrationStart, xn::SkeletonCapability::CalibrationEnd, void*, void*&):
+/usr/include/ni/XnCppWrapper.h:7058:165: warning: call to xnRegisterCalibrationCallbacks declared with attribute warning: This function is deprecated: Please use RegisterToCalibrationStart/Complete [enabled by default]
+ lback, CalibrationEndBundleCallback, pSkeletonCookie, &pSkeletonCookie->hCallback);
+                                                                                   ^
+/usr/include/ni/XnCppWrapper.h: In member function XnStatus xn::PoseDetectionCapability::RegisterToPoseCallbacks(xn::PoseDetectionCapability::PoseDetection, xn::PoseDetectionCapability::PoseDetection, void*, void*&):
+/usr/include/ni/XnCppWrapper.h:7468:161: warning: call to xnRegisterToPoseCallbacks declared with attribute warning: This function is deprecated: Please use PoseDetected and/or OutOfPose callbacks [enabled by default]
+ llback, PoseDetectionStartEndBundleCallback, pPoseCookie, &pPoseCookie->hCallback);
+                                                                                   ^
+/usr/include/ni/XnCppWrapper.h: In member function XnStatus xn::Context::InitFromXmlFile(const XnChar*, xn::EnumerationErrors*):
+/usr/include/ni/XnCppWrapper.h:9533:114: warning: call to xnInitFromXmlFile declared with attribute warning: This function is deprecated: Please use xnInitFromXmlFileEx() instead [enabled by default]
+ XmlFile(strFileName, &pContext, pErrors == NULL ? NULL : pErrors->GetUnderlying());
+                                                                                  ^
+/usr/include/ni/XnCppWrapper.h: In member function void xn::Context::Shutdown():
+/usr/include/ni/XnCppWrapper.h:9558:27: warning: call to xnShutdown declared with attribute warning: This function is deprecated: Use xnContextRelease() instead [enabled by default]
+     xnShutdown(m_pContext);
+                           ^
+/home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp: In function int main(int, char**):
+/home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp:254:72: warning: call to xn::Context::InitFromXmlFile declared with attribute warning: This function is deprecated: Use other overload! [enabled by default]
+     XnStatus nRetVal = g_Context.InitFromXmlFile(configFilename.c_str());
+                                                                        ^
+/home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp:294:158: warning: call to xn::SkeletonCapability::RegisterCalibrationCallbacks declared with attribute warning: This function is deprecated: Please use RegisterToCalibrationStart/Complete [enabled by default]
+ on_CalibrationStart, UserCalibration_CalibrationEnd, NULL, hCalibrationCallbacks);
+                                                                                  ^
+/home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp:304:115: warning: call to xn::PoseDetectionCapability::RegisterToPoseCallbacks declared with attribute warning: This function is deprecated: Please use RegisterToPoseDetected/RegisterToOutOfPose instead [enabled by default]
+ nCap().RegisterToPoseCallbacks(UserPose_PoseDetected, NULL, NULL, hPoseCallbacks);
+                                                                                  ^
+/home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp:334:22: warning: call to xn::Context::Shutdown declared with attribute warning: This function is deprecated: You may use Release() instead, or count on dtor [enabled by default]
+  g_Context.Shutdown();
+                      ^
+Linking CXX executable /home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker
 [100%] Built target openni_tracker
-[[36mopenni_tracker[0m] [32m<==[0m '[1m/home/mech-user/semi/build/openni_tracker/build_env.sh /usr/bin/make --jobserver-fds=3,5 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mopenni_tracker[0m] [32m<==[0m '[1m/home/mech-user/seminar/build/openni_tracker/build_env.sh /usr/bin/make --jobserver-fds=4,6 -j[0m' finished with return code '[1m0[0m'[0m

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/mech-user/semi/src/crane_urdf/src/reflect_rviz_in_crane.cpp
+/home/mech-user/seminar/src/crane_urdf/src/reflect_rviz_in_crane.cpp
 ros/ros.h
-/home/mech-user/semi/src/crane_urdf/src/ros/ros.h
+/home/mech-user/seminar/src/crane_urdf/src/ros/ros.h
 std_msgs/Float64.h
-/home/mech-user/semi/src/crane_urdf/src/std_msgs/Float64.h
+/home/mech-user/seminar/src/crane_urdf/src/std_msgs/Float64.h
 sensor_msgs/JointState.h
-/home/mech-user/semi/src/crane_urdf/src/sensor_msgs/JointState.h
+/home/mech-user/seminar/src/crane_urdf/src/sensor_msgs/JointState.h
 sstream
 -
 

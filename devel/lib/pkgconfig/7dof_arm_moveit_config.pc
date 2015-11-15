@@ -1,8 +1,8 @@
-prefix=/home/mech-user/semi/devel
+prefix=/home/mech-user/seminar/devel
 
 Name: 7dof_arm_moveit_config
 Description: Description of 7dof_arm_moveit_config
 Version: 0.2.0
 Cflags: 
-Libs: -L/home/mech-user/semi/devel/lib 
+Libs: -L/home/mech-user/seminar/devel/lib 
 Requires: 

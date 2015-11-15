@@ -40,7 +40,7 @@ shift $#
 # set the args for the sourced scripts
 set -- $@ "--extend"
 # source setup.sh with implicit --extend argument for each direct build depend in the workspace
-. "/home/mech-user/semi/devel/setup.sh"
+. "/home/mech-user/seminar/devel/setup.sh"
 
 # execute given args
 eval exec $_ARGS

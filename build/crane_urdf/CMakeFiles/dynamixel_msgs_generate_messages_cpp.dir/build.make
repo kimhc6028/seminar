@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mech-user/semi/src/crane_urdf
+CMAKE_SOURCE_DIR = /home/mech-user/seminar/src/crane_urdf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mech-user/semi/build/crane_urdf
+CMAKE_BINARY_DIR = /home/mech-user/seminar/build/crane_urdf
 
 # Utility rule file for dynamixel_msgs_generate_messages_cpp.
 
@@ -60,6 +60,6 @@ CMakeFiles/dynamixel_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/dynamixel_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/dynamixel_msgs_generate_messages_cpp.dir/depend:
-	cd /home/mech-user/semi/build/crane_urdf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mech-user/semi/src/crane_urdf /home/mech-user/semi/src/crane_urdf /home/mech-user/semi/build/crane_urdf /home/mech-user/semi/build/crane_urdf /home/mech-user/semi/build/crane_urdf/CMakeFiles/dynamixel_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mech-user/seminar/build/crane_urdf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mech-user/seminar/src/crane_urdf /home/mech-user/seminar/src/crane_urdf /home/mech-user/seminar/build/crane_urdf /home/mech-user/seminar/build/crane_urdf /home/mech-user/seminar/build/crane_urdf/CMakeFiles/dynamixel_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamixel_msgs_generate_messages_cpp.dir/depend
 

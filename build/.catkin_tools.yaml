@@ -1,6 +1,6 @@
-devel_space: /home/mech-user/semi/devel
+devel_space: /home/mech-user/seminar/devel
 install: false
-install_space: /home/mech-user/semi/install
+install_space: /home/mech-user/seminar/install
 profile: default
-source_space: /home/mech-user/semi/src
-workspace: /home/mech-user/semi
+source_space: /home/mech-user/seminar/src
+workspace: /home/mech-user/seminar

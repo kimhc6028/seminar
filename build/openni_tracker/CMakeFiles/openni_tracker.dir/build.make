@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mech-user/semi/src/openni_tracker
+CMAKE_SOURCE_DIR = /home/mech-user/seminar/src/openni_tracker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mech-user/semi/build/openni_tracker
+CMAKE_BINARY_DIR = /home/mech-user/seminar/build/openni_tracker
 
 # Include any dependencies generated for this target.
 include CMakeFiles/openni_tracker.dir/depend.make
@@ -50,18 +50,18 @@ include CMakeFiles/openni_tracker.dir/progress.make
 include CMakeFiles/openni_tracker.dir/flags.make
 
 CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o: CMakeFiles/openni_tracker.dir/flags.make
-CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o: /home/mech-user/semi/src/openni_tracker/src/openni_tracker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mech-user/semi/build/openni_tracker/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o: /home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mech-user/seminar/build/openni_tracker/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o -c /home/mech-user/semi/src/openni_tracker/src/openni_tracker.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o -c /home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp
 
 CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mech-user/semi/src/openni_tracker/src/openni_tracker.cpp > CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp > CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.i
 
 CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mech-user/semi/src/openni_tracker/src/openni_tracker.cpp -o CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mech-user/seminar/src/openni_tracker/src/openni_tracker.cpp -o CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.s
 
 CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o.requires:
 .PHONY : CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o.requires
@@ -79,38 +79,38 @@ openni_tracker_OBJECTS = \
 # External object files for target openni_tracker
 openni_tracker_EXTERNAL_OBJECTS =
 
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: CMakeFiles/openni_tracker.dir/build.make
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libroslib.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libtf.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libtf2_ros.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libactionlib.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libmessage_filters.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libroscpp.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libtf2.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/librosconsole.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /usr/lib/liblog4cxx.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/librostime.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libcpp_common.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/liborocos-kdl.so.1.3.0
-/home/mech-user/semi/devel/lib/openni_tracker/openni_tracker: CMakeFiles/openni_tracker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/mech-user/semi/devel/lib/openni_tracker/openni_tracker"
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: CMakeFiles/openni_tracker.dir/build.make
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libroslib.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libtf.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libtf2_ros.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libactionlib.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libmessage_filters.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libroscpp.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libtf2.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/librosconsole.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /usr/lib/liblog4cxx.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/librostime.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/libcpp_common.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: /opt/ros/indigo/lib/liborocos-kdl.so.1.3.0
+/home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker: CMakeFiles/openni_tracker.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openni_tracker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/openni_tracker.dir/build: /home/mech-user/semi/devel/lib/openni_tracker/openni_tracker
+CMakeFiles/openni_tracker.dir/build: /home/mech-user/seminar/devel/lib/openni_tracker/openni_tracker
 .PHONY : CMakeFiles/openni_tracker.dir/build
 
 CMakeFiles/openni_tracker.dir/requires: CMakeFiles/openni_tracker.dir/src/openni_tracker.cpp.o.requires
@@ -121,6 +121,6 @@ CMakeFiles/openni_tracker.dir/clean:
 .PHONY : CMakeFiles/openni_tracker.dir/clean
 
 CMakeFiles/openni_tracker.dir/depend:
-	cd /home/mech-user/semi/build/openni_tracker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mech-user/semi/src/openni_tracker /home/mech-user/semi/src/openni_tracker /home/mech-user/semi/build/openni_tracker /home/mech-user/semi/build/openni_tracker /home/mech-user/semi/build/openni_tracker/CMakeFiles/openni_tracker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mech-user/seminar/build/openni_tracker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mech-user/seminar/src/openni_tracker /home/mech-user/seminar/src/openni_tracker /home/mech-user/seminar/build/openni_tracker /home/mech-user/seminar/build/openni_tracker /home/mech-user/seminar/build/openni_tracker/CMakeFiles/openni_tracker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/openni_tracker.dir/depend
 

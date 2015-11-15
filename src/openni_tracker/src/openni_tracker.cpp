@@ -41,23 +41,43 @@ geometry_msgs::Vector3 left_hand_msg;
 
 
 void XN_CALLBACK_TYPE User_NewUser(xn::UserGenerator& generator, XnUserID nId, void* pCookie) {
+  //////////////
+  if(nId==1){
+    //////////////
 	ROS_INFO("New User %d", nId);
 
 	if (g_bNeedPose)
 		g_UserGenerator.GetPoseDetectionCap().StartPoseDetection(g_strPose, nId);
 	else
 		g_UserGenerator.GetSkeletonCap().RequestCalibration(nId, TRUE);
+	/////////
+  }
+  /////////
 }
-
 void XN_CALLBACK_TYPE User_LostUser(xn::UserGenerator& generator, XnUserID nId, void* pCookie) {
+  /////////////// 
+ if(nId==1){
+   ////////////
 	ROS_INFO("Lost user %d", nId);
+	/////////// 
+ }
+ ///////////
 }
 
 void XN_CALLBACK_TYPE UserCalibration_CalibrationStart(xn::SkeletonCapability& capability, XnUserID nId, void* pCookie) {
-	ROS_INFO("Calibration started for user %d", nId);
+  /////////////
+  if(nId==1){
+    ///////////
+    ROS_INFO("Calibration started for user %d", nId);
+    ///////////
+  }
+  ////////////
 }
 
 void XN_CALLBACK_TYPE UserCalibration_CalibrationEnd(xn::SkeletonCapability& capability, XnUserID nId, XnBool bSuccess, void* pCookie) {
+  /////////// 
+  if(nId==1){
+    //////////////
 	if (bSuccess) {
 		ROS_INFO("Calibration complete, start tracking user %d", nId);
 		g_UserGenerator.GetSkeletonCap().StartTracking(nId);
@@ -69,14 +89,22 @@ void XN_CALLBACK_TYPE UserCalibration_CalibrationEnd(xn::SkeletonCapability& cap
 		else
 			g_UserGenerator.GetSkeletonCap().RequestCalibration(nId, TRUE);
 	}
+	///////////
+  }
+  //////////
 }
 
 void XN_CALLBACK_TYPE UserPose_PoseDetected(xn::PoseDetectionCapability& capability, XnChar const* strPose, XnUserID nId, void* pCookie) {
+  ////////////// 
+ if(nId==1){
+   ////////////
     ROS_INFO("Pose %s detected for user %d", strPose, nId);
     g_UserGenerator.GetPoseDetectionCap().StopPoseDetection(nId);
     g_UserGenerator.GetSkeletonCap().RequestCalibration(nId, TRUE);
+    /////////////
+ }
+ ///////////
 }
-
 void publishTransform(XnUserID const& user, XnSkeletonJoint const& joint, string const& frame_id, string const& child_frame_id) {
     static tf::TransformBroadcaster br;
 
@@ -201,7 +229,7 @@ void publishTransforms(const std::string& frame_id) {
 
 	///////////////////////////
 	
-	printf("relative_right_position : [%f,%f,%f]\n",right_hand_msg.x,right_hand_msg.y,right_hand_msg.z);
+	//	printf("relative_right_position : [%f,%f,%f]\n",right_hand_msg.x,right_hand_msg.y,right_hand_msg.z);
 	//printf("relative_left_position : [%f,%f,%f]\n",left_hand_msg.x,left_hand_msg.y,left_hand_msg.z);
     }
 }
@@ -245,20 +273,20 @@ int main(int argc, char **argv) {
 
     XnCallbackHandle hUserCallbacks;
     //////////////////////////////////////////////////////////
-    ////	g_UserGenerator.RegisterUserCallbacks(User_NewUser, User_LostUser, NULL, hUserCallbacks);
+   	g_UserGenerator.RegisterUserCallbacks(User_NewUser, User_LostUser, NULL, hUserCallbacks);
 
 
 
 
 
-    if(get_user==TRUE){g_UserGenerator.RegisterUserCallbacks(User_NewUser, User_LostUser, NULL, hUserCallbacks);
+    /* if(get_user==TRUE){g_UserGenerator.RegisterUserCallbacks(User_NewUser, User_LostUser, NULL, hUserCallbacks);
       get_user=FALSE;
     }
     else{
       ROS_INFO("Other user interrupt! Get Out of Kinect range!");
     }
     printf("%d\n",get_user);
-
+    */
 
 
 	//////////////////////////////////////////////////////////
