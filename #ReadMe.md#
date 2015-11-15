@@ -1,0 +1,2 @@
+How to operate 7dof arm with moveit:
+roslaunch my_dynamixel_tutorial

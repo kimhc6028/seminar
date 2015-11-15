@@ -1,0 +1,8 @@
+prefix=/home/mech-user/semi/install
+
+Name: daisya_euslisp_tutorials
+Description: Description of daisya_euslisp_tutorials
+Version: 2.1.1
+Cflags: 
+Libs: -L/home/mech-user/semi/install/lib 
+Requires: 

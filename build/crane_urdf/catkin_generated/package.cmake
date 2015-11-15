@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "crane_urdf")
+set(crane_urdf_MAINTAINER "mech-user <mech-user@todo.todo>")
+set(crane_urdf_DEPRECATED "")
+set(crane_urdf_VERSION "0.0.0")
+set(crane_urdf_BUILD_DEPENDS "roscpp" "rospy" "sensor_msgs" "std_msgs")
+set(crane_urdf_RUN_DEPENDS "roscpp" "rospy" "sensor_msgs" "std_msgs")
+set(crane_urdf_BUILDTOOL_DEPENDS "catkin")

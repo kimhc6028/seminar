@@ -1,0 +1,8 @@
+prefix=/home/mech-user/semi/install
+
+Name: kinect_move
+Description: Description of kinect_move
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mech-user/semi/install/lib 
+Requires: 

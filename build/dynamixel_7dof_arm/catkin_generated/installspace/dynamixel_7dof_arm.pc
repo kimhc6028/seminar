@@ -1,0 +1,8 @@
+prefix=/home/mech-user/semi/install
+
+Name: dynamixel_7dof_arm
+Description: Description of dynamixel_7dof_arm
+Version: 2.1.1
+Cflags: 
+Libs: -L/home/mech-user/semi/install/lib 
+Requires: 

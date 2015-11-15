@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "kinect_move")
+set(kinect_move_MAINTAINER "mech-user <mech-user@todo.todo>")
+set(kinect_move_DEPRECATED "")
+set(kinect_move_VERSION "0.0.0")
+set(kinect_move_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(kinect_move_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(kinect_move_BUILDTOOL_DEPENDS "catkin")

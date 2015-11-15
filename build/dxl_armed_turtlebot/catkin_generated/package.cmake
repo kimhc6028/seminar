@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "dxl_armed_turtlebot")
+set(dxl_armed_turtlebot_MAINTAINER "Shunichi Nozawa <nozawa@jsk.imi.i.u-tokyo.ac.jp>")
+set(dxl_armed_turtlebot_DEPRECATED "")
+set(dxl_armed_turtlebot_VERSION "2.1.1")
+set(dxl_armed_turtlebot_BUILD_DEPENDS "dynamixel_urdf" "dynamixel_7dof_arm" "turtleboteus" "rostest" "rqt_joint_trajectory_controller" "teleop_twist_keyboard")
+set(dxl_armed_turtlebot_RUN_DEPENDS "dynamixel_urdf" "dynamixel_7dof_arm" "turtleboteus" "rqt_joint_trajectory_controller" "teleop_twist_keyboard")
+set(dxl_armed_turtlebot_BUILDTOOL_DEPENDS "catkin")

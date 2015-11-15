@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "dynamixel_7dof_arm")
+set(dynamixel_7dof_arm_MAINTAINER "Shunichi Nozawa <nozawa@jsk.imi.i.u-tokyo.ac.jp>")
+set(dynamixel_7dof_arm_DEPRECATED "")
+set(dynamixel_7dof_arm_VERSION "2.1.1")
+set(dynamixel_7dof_arm_BUILD_DEPENDS "dynamixel_controllers" "pr2eus")
+set(dynamixel_7dof_arm_RUN_DEPENDS "dynamixel_controllers" "pr2eus")
+set(dynamixel_7dof_arm_BUILDTOOL_DEPENDS "catkin")

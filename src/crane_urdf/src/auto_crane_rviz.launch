@@ -1,0 +1,11 @@
+<launch>
+        <param name="robot_description" textfile="$(find crane_urdf)/src/crane.urdf" />
+        <param name="use_gui" value="False"/>
+        <rosparam param="source_list">["joint_states_source"]</rosparam>
+ 
+        <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+        <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+        <node name="rviz" pkg="rviz" type="rviz" args="-d $(find urdf_tutorial)/urdf.rviz" required="true" />
+        <node name="reflect_crane_in_rviz" pkg="crane_urdf" type="reflect_crane_in_rviz" />
+        <node name="turtlebot_arm" pkg="turtlebot_arm" type="turtlebot_arm" />
+</launch>

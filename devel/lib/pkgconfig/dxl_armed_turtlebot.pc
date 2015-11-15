@@ -1,0 +1,8 @@
+prefix=/home/mech-user/semi/devel
+
+Name: dxl_armed_turtlebot
+Description: Description of dxl_armed_turtlebot
+Version: 2.1.1
+Cflags: 
+Libs: -L/home/mech-user/semi/devel/lib 
+Requires: 

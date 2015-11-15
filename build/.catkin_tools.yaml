@@ -1,0 +1,6 @@
+devel_space: /home/mech-user/semi/devel
+install: false
+install_space: /home/mech-user/semi/install
+profile: default
+source_space: /home/mech-user/semi/src
+workspace: /home/mech-user/semi

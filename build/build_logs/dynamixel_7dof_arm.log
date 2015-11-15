@@ -1,0 +1,66 @@
+[[36mdynamixel_7dof_arm[0m] [1m[34m==>[0m '[1m/home/mech-user/semi/build/dynamixel_7dof_arm/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/home/mech-user/semi/build/dynamixel_7dof_arm[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /home/mech-user/semi/devel
+-- Using CMAKE_PREFIX_PATH: /home/mech-user/semi/devel;/home/mech-user/catkin_ws/devel;/opt/ros/indigo
+-- This workspace overlays: /home/mech-user/semi/devel;/home/mech-user/catkin_ws/devel;/opt/ros/indigo
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/mech-user/semi/build/dynamixel_7dof_arm/test_results
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.6.14
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- [roseus.cmake] loading roseus.cmake from dynamixel_7dof_arm
+-- [roseus.cmake] roseus 1.3.9
+-- [roseus.cmake] jskeus 
+-- [roseus.cmake] euslisp 
+-- [roseus.cmake] geneus 2.2.4
+-- [roseus.cmake] genmsg 0.5.6
+-- [roseus.cmake] message_generation Requires: gencpp;genlisp;genmsg;genpy
+-- [roseus.cmake] generate all roseus messages
+WARNING: Package name "7dof_arm_moveit_config" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits and underscores.
+WARNING: Package "ompl" does not follow the version conventions. It should not contain leading zeros (unless the number is 0).
+-- [roseus.cmake] dynamixel_7dof_arm depends on audio_common_msgs;dynamixel_controllers;std_msgs;actionlib_msgs;diagnostic_msgs;dynamixel_msgs;geometry_msgs;move_base_msgs;nav_msgs;pr2_msgs;rosgraph_msgs;roscpp;actionlib;dynamic_reconfigure;sensor_msgs;shape_msgs;sound_play;std_srvs;tf;tf2_msgs;topic_tools;trajectory_msgs;control_msgs;pr2_controllers_msgs;visualization_msgs
+-- [roseus.cmake] dynamixel_7dof_arm will compile audio_common_msgs;dynamixel_controllers;diagnostic_msgs;dynamixel_msgs;move_base_msgs;nav_msgs;pr2_msgs;shape_msgs;sound_play;trajectory_msgs;control_msgs;pr2_controllers_msgs;dynamixel_7dof_arm
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mech-user/semi/build/dynamixel_7dof_arm
+[[36mdynamixel_7dof_arm[0m] [32m<==[0m '[1m/home/mech-user/semi/build/dynamixel_7dof_arm/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mdynamixel_7dof_arm[0m] [1m[34m==>[0m '[1m/home/mech-user/semi/build/dynamixel_7dof_arm/build_env.sh /usr/bin/make --jobserver-fds=4,6 -j[0m' [30m[1min[0m '[1m/home/mech-user/semi/build/dynamixel_7dof_arm[0m'[0m
+Scanning dependencies of target dynamixel_msgs_generate_messages_eus
+Scanning dependencies of target dynamixel_controllers_generate_messages_eus
+[  1%] [  1%] Built target audio_common_msgs_generate_messages_eus
+Built target dynamixel_controllers_generate_messages_eus
+[  3%] Built target diagnostic_msgs_generate_messages_eus
+[  3%] [  3%] [  3%] [  3%] [  4%] [  4%] Generating EusLisp code from dynamixel_msgs/JointState.msg
+Generating EusLisp code from dynamixel_msgs/JointState.msg
+Generating EusLisp code from dynamixel_msgs/JointState.msg
+Generating EusLisp code from dynamixel_msgs/JointState.msg
+[  4%] Generating EusLisp code from dynamixel_msgs/JointState.msg
+Generating EusLisp code from dynamixel_msgs/JointState.msg
+Generating EusLisp code from dynamixel_msgs/MotorState.msg
+[  4%] Generating EusLisp code from dynamixel_msgs/MotorState.msg
+[  4%] [  4%] [  4%] [  4%] [  4%] Generating EusLisp code from dynamixel_msgs/MotorState.msg
+Generating EusLisp code from dynamixel_msgs/MotorState.msg
+Generating EusLisp code from dynamixel_msgs/MotorState.msg
+[  4%] Generating EusLisp code from dynamixel_msgs/MotorState.msg
+Generating EusLisp code from dynamixel_msgs/MotorStateList.msg
+[  4%] Generating EusLisp code from dynamixel_msgs/MotorStateList.msg
+Generating EusLisp code from dynamixel_msgs/MotorStateList.msg
+[  4%] [  4%] [  4%] Generating EusLisp code from dynamixel_msgs/MotorStateList.msg
+[  4%] Generating EusLisp code from dynamixel_msgs/MotorStateList.msg
+Generating EusLisp code from dynamixel_msgs/MotorStateList.msg
+Generating EusLisp code from dynamixel_msgs/MotorStateList.msg
+[  7%] Built target move_base_msgs_generate_messages_eus
+[ 15%] Built target pr2_msgs_generate_messages_eus
+[ 34%] Built target dynamixel_7dof_arm_generate_messages_eus
+[ 42%] Built target shape_msgs_generate_messages_eus
+[ 47%] Built target nav_msgs_generate_messages_eus
+[ 61%] Built target control_msgs_generate_messages_eus
+[ 79%] Built target pr2_controllers_msgs_generate_messages_eus
+[ 82%] Built target dynamixel_msgs_generate_messages_eus
+[ 90%] Built target sound_play_generate_messages_eus
+[100%] Built target trajectory_msgs_generate_messages_eus
+[[36mdynamixel_7dof_arm[0m] [32m<==[0m '[1m/home/mech-user/semi/build/dynamixel_7dof_arm/build_env.sh /usr/bin/make --jobserver-fds=4,6 -j[0m' finished with return code '[1m0[0m'[0m

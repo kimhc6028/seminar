@@ -1,0 +1,8 @@
+prefix=/home/mech-user/semi/install
+
+Name: turtleboteus
+Description: Description of turtleboteus
+Version: 2.1.1
+Cflags: 
+Libs: -L/home/mech-user/semi/install/lib 
+Requires: 

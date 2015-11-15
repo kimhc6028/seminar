@@ -1,0 +1,8 @@
+prefix=/home/mech-user/semi/install
+
+Name: openni_tracker
+Description: Description of openni_tracker
+Version: 0.2.0
+Cflags: 
+Libs: -L/home/mech-user/semi/install/lib 
+Requires: 
